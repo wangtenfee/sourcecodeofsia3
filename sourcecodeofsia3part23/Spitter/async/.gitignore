@@ -1,0 +1,10 @@
+/.gradle/
+.settings
+.project
+.pydevproject
+.classpath
+*~
+*bak
+.svn
+bin/
+*.class
