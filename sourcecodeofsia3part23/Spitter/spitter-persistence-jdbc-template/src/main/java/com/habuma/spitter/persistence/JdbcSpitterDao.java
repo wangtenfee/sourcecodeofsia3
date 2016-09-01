@@ -37,7 +37,7 @@ public class JdbcSpitterDao extends SimpleJdbcDaoSupport implements
 
 private static final String SQL_SELECT_RECENT_SPITTLE = 
   SQL_SELECT_SPITTLE + " where postedTime > ? order by postedTime desc";
-  
+
   public Spitter getSpitterById(long id) {
     return getSimpleJdbcTemplate().queryForObject(
             SQL_SELECT_SPITTER_BY_ID,

@@ -44,8 +44,9 @@ configure(subprojects) {
     scribeVersion = '1.0.8'
     servletApiVersion = '2.5'
     springVersion = '3.0.5.RELEASE'
-    
-
+    // https://mvnrepository.com/artifact/jstl/jstl
+	jstlVersion = '1.2'
+	taglibsVersion = '1.1.2'
     sourceSets {
         test {
             resources {
