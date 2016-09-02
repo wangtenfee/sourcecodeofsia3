@@ -6,5 +6,6 @@
 *~
 *bak
 .svn
-bin/
+*/bin/\*
 *.class
+.classpath
